@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Supgr1 from '../assets/image/supgr1.jpg'
 import Supgr2 from '../assets/image/supgr2.jpg'
+import Iconroom from '../assets/image/iconroom.png'
 class Typeroom extends Component {
     state = {}
     render() {
@@ -11,12 +12,22 @@ class Typeroom extends Component {
 
                 </div>
                 <div className='container'>
-                    <div className='row row-cols-1 row-cols-md-2 mb-2 text-center'>
-                        <div className='col child-img'>
-                            <img src={Supgr1} alt="" />
+                    <div className='room-child-icon'>
+                        <img src={Iconroom} alt="" />
+                        <h4>Superior Double Garden View</h4>
+                    </div>
+                    <div className='room-child-info'>
+                        <div className='room-child-content'>
+                            <h6><i className="bi bi-check2"></i>room area:</h6>
+                            <h6><i className="bi bi-check2"></i>View:</h6>
+                            <h6><i className="bi bi-check2"></i>Extra bed:
+                            </h6>
+                            <h6><i className="bi bi-check2"></i>Occupancy:</h6>
+                            <h6><i className="bi bi-check2"></i>Bathroom: </h6>
+                            <h6><i className="bi bi-check2"></i>Bed Type:</h6>
                         </div>
-                        <div className='col child-img'>
-                            <img src={Supgr2} alt="" />
+                        <div className='room-child-img'>
+                            <img src={Supgr1} alt="" />
                         </div>
                     </div>
                 </div>
