@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import Header from './conponents/header';
-import './App.css';
+import Header from "./conponents/header";
+import Typeroom from "./conponents/room";
+import "./App.css";
+import React from "react";
 
 function App() {
   return (
-    <Header/>
-    
+    <React.Fragment>
+      <Header />
+      <Typeroom />
+    </React.Fragment>
   );
 }
 
