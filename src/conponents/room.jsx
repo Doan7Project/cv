@@ -7,26 +7,39 @@ class Typeroom extends Component {
     render() {
         return (
 
-            <nav>
-                <div className='room-child-line'>
-
-                </div>
+            <nav className='room-primary'>
                 <div className='container'>
-                    <div className='room-child-icon'>
-                        <h4>Superior Double Garden View</h4>
-                    </div>
                     <div className='room-child-info'>
-                        <div className='room-child-content'>
-                            <h6><i className="bi bi-check2"></i>room area:</h6>
-                            <h6><i className="bi bi-check2"></i>View:</h6>
-                            <h6><i className="bi bi-check2"></i>Extra bed:
+                        <div className='col room-child-content'>
+                            <h5 className='display-7 fw-bold'>Superior Double Garden View</h5>
+                            <h6><i className="bi bi-check2 lead mb-4"></i>room area:</h6>
+                            <h6><i className="bi bi-check2 lead mb-4"></i>View:</h6>
+                            <h6><i className="bi bi-check2 lead mb-4"></i>Extra bed:
                             </h6>
-                            <h6><i className="bi bi-check2"></i>Occupancy:</h6>
-                            <h6><i className="bi bi-check2"></i>Bathroom: </h6>
-                            <h6><i className="bi bi-check2"></i>Bed Type:</h6>
+                            <h6><i className="bi bi-check2 lead mb-4"></i>Occupancy:</h6>
+                            <h6><i className="bi bi-check2 lead mb-4"></i>Bathroom: </h6>
+                            <h6><i className="bi bi-check2 lead mb-4"></i>Bed Type:</h6>
                         </div>
                         <div className='room-child-img'>
-                            <img src={Supgr1} alt="" />
+                            <div className='row px-1 py-0 my-1'>
+                                <img src={Supgr1} alt="" />
+                            </div>
+                            <div className='row px-1 py-0 my-1'>
+                                <div className='col'>
+                                    <img src={Supgr2} alt="" />
+                                </div>
+                                <div className='col'>
+                                    <img src={Supgr2} alt="" />
+                                </div>
+                                <div className='col'>
+                                    <img src={Supgr2} alt="" />
+                                </div>
+                                <div className='col'>
+                                    <img src={Supgr2} alt="" />
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
