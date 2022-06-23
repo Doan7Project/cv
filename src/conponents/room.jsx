@@ -13,7 +13,6 @@ class Typeroom extends Component {
                 </div>
                 <div className='container'>
                     <div className='room-child-icon'>
-                        <img src={Iconroom} alt="" />
                         <h4>Superior Double Garden View</h4>
                     </div>
                     <div className='room-child-info'>
@@ -35,14 +34,7 @@ class Typeroom extends Component {
 
                 </div>
 
-                {/* <div className='row row-cols-1 row-cols-md-2 mb-2 text-center'>
-                              <div className='col child-information'>
-                    <h4>Superior Double Garden View</h4>
-                </div>
-                <div className='col child-img'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eligendi molestiae quas, repellat in optio quibusdam inventore eum. Aperiam veritatis quo sit libero voluptas reiciendis excepturi esse doloremque sed adipisci.</p>
-                </div>
-                </div> */}
+
 
             </nav>
         );
