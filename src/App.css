@@ -92,7 +92,7 @@
   color: rgb(56, 56, 56);
   cursor: pointer;
   padding: 10px;
-  height: 70vh;
+  height: auto;
   overflow: auto;
   text-align: justify;
 }
@@ -110,53 +110,3 @@
 /* phan 2 */
 
 /* phần 3 */
-.container{
-  /* border: 3px rgb(235, 235, 235) solid; */
- 
-  /* padding: 10px; */
-}
-.room-child-line {
-  width: 100%;
-  height: 1px;
-  background-color: bisque;
-}
-.room-child-icon img {
-  width: 5%;
-}
-.room-child-content {
-  width: 70%;
-  margin: auto;
-
-}
-.room-child-info {
-  /* background-image: linear-gradient(
-    to bottom,
-    rgb(11, 165, 127),
-    rgb(240, 182, 25)
-  ); */
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-
-}
-.room-child-img img {
-  width: 100%;
-}
-.room-child-content .bi{
-  padding-right: 10px;
-}
-@media screen and (max-width: 920px) {
-  .room-child-info {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: auto;
-    align-items: center;
-  
-  }
-  .room-child-content {
-    width: 90%;
-    margin: auto;
-  
-  }
-}

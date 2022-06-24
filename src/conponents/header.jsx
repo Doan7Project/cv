@@ -4,23 +4,23 @@ import room1 from '../assets/image/Room1.jpg'
 import Iconroom from '../assets/image/iconroom.png'
 function Headers() {
     return (
-        <div className='containers'>
+        <div className='container containers'>
             <div className='primary-part'>
                 <div className='child-part'>
                     <img src={logo} alt="" />
                     <div className='child-name'>
-                        <span className='fw-bold'>Hotel Name</span>
+                        <span className='lead fw-bold'>Hotel Name</span>
                     </div>
                 </div>
                 <div className='child-part'>
                     <div className='child-content-1'>
-                        <span>Hotel Information</span>
+                        <span className='lead'>Hotel Information</span>
                         <div className='child-line'></div>
                         {/* <div className='child-fullscreen'>
                             <button className='child-btn' data-bs-toggle="modal" data-bs-target="#staticBackdrop" ><i className="bi bi-fullscreen" ></i></button>
                         </div> */}
                     </div>
-                    <div className='child-ct'>
+                    <div className='child-ct lead'>
                         <p>
                             Saigon Emarald Resort There are a total of 74 rooms including a luxurious separate bungalow overlooking the sea with relaxing and private space. The restaurant at the Resort will be a great choice for diners to enjoy the best local dishes of Mui Ne, Phan Thiet. Especially you enjoy the scenery of the blue sea with a beautiful infinity pool.
                         </p>
@@ -30,12 +30,11 @@ function Headers() {
                 </div>
             </div>
             <div className='primary-part borders'>
-           
-                <div className="px-5 py-3 my-3 text-center">
+                <div className="px-2 py-3 my-3 text-center">
                 <img className="d-block mx-auto mb-4" src={Iconroom} alt="" width="72" height="57" />
                     <h1 className="display-5 fw-bold">Catalog</h1>
                     <div className="col-lg-10 mx-auto">
-                        <p className="lead mb-0">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        <p className="lead mb-2">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                     </div>
 
                 </div>
