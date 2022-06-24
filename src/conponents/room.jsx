@@ -65,8 +65,8 @@ function Typeroom() {
 
                                         </div>
                                     </div>
-                                    <div className='row row-cols-3 px-1 py-1'>
-                                        <div className='col-sm-4 px-2'>
+                                    <div className='row row-cols-3 px-1 py-3 '>
+                                        <div className='col-sm-4 px-2 rounded-3'>
                                             <img src={item.srcImg2} alt="" width="100%" />
                                         </div>
                                         <div className='col-sm-4 px-2'>
