@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.a41b347c.css",
-    "main.js": "/cv/static/js/main.73b13dc1.js",
+    "main.js": "/cv/static/js/main.46601376.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
+    "static/media/supgr1.jpg": "/cv/static/media/supgr1.940610e122afead5ae47.jpg",
     "static/media/supgr2.jpg": "/cv/static/media/supgr2.3a7abe46f65f14c38d30.jpg",
-    "static/media/supgr1.jpg": "/cv/static/media/supgr1.0db0514da176e8abd894.jpg",
-    "static/media/Room1.jpg": "/cv/static/media/Room1.a0fd43fa0eff7c045d3e.jpg",
+    "static/media/Room1.jpg": "/cv/static/media/Room1.c9105f880b9db99fb9c6.jpg",
     "static/media/pic1.jpg": "/cv/static/media/pic1.4651d66346533553729d.jpg",
     "static/media/capacity.png": "/cv/static/media/capacity.c159c2dc9c1822ac0689.png",
     "static/media/visibility.png": "/cv/static/media/visibility.6071239546cfff267813.png",
@@ -14,11 +14,11 @@
     "static/media/double-bed.png": "/cv/static/media/double-bed.ee56a00023301392c17f.png",
     "index.html": "/cv/index.html",
     "main.a41b347c.css.map": "/cv/static/css/main.a41b347c.css.map",
-    "main.73b13dc1.js.map": "/cv/static/js/main.73b13dc1.js.map",
+    "main.46601376.js.map": "/cv/static/js/main.46601376.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a41b347c.css",
-    "static/js/main.73b13dc1.js"
+    "static/js/main.46601376.js"
   ]
 }
