@@ -3,7 +3,7 @@ import Iconroom from '../assets/image/iconroom.png'
 function Introroom() {
     return (
 
-        <nav>
+        <nav className='container'>
             <div className="px-4 py-5 my-5 text-center">
                 <img className="d-block mx-auto mb-4" src={Iconroom} alt="" width="72" height="57" />
                 <h1 className="display-5 fw-bold">Centered hero</h1>
