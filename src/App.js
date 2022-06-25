@@ -1,6 +1,6 @@
 import Headers from "./conponents/header";
-import Typeroom from "./conponents/room";
 import Introroom from "./conponents/introroom";
+import RoomDetail from "./conponents/roomdetail";
 import "./App.css";
 import React from "react";
 
@@ -9,7 +9,7 @@ function App() {
     <React.Fragment>
       <Headers />
       <Introroom />
-      <Typeroom />
+      <RoomDetail />
     </React.Fragment>
   );
 }

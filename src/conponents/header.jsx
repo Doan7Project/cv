@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
-import logo from '../assets/image/pic1.jpg'
-import room1 from '../assets/image/Room1.jpg'
 import Iconroom from '../assets/image/iconroom.png'
+import Pic2 from '../assets/image/Pic2.jpg'
+import Pic3 from '../assets/image/Pic3.jpg'
+import Pic4 from '../assets/image/Pic4.jpg'
+import Pic5 from '../assets/image/Pic5.jpg'
 function Headers() {
     return (
         <div className='container containers'>
-            <div className='primary-part'>
+            <div className='primary-part shadow p-4 bg-body rounded'>
                 <div className='child-part'>
-                    <img src={logo} alt="" />
+                    <img src={Pic3} alt="" />
                     <div className='child-name'>
                         <span className='lead fw-bold'>Hotel Name</span>
                     </div>
@@ -38,13 +40,13 @@ function Headers() {
                 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={room1} className="d-block w-100" alt="..." />
+                            <img src={Pic2} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src={room1} className="d-block w-100" alt="..." />
+                            <img src={Pic4} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src={room1} className="d-block w-100" alt="..." />
+                            <img src={Pic5} className="d-block w-100" alt="..." />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
