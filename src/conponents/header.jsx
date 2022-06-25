@@ -7,7 +7,7 @@ import Pic5 from '../assets/image/Pic5.jpg'
 function Headers() {
     return (
         <div className='container containers'>
-            <div className='primary-part shadow p-4 bg-body rounded'>
+            <div className='primary-part shadow p-0 bg-body rounded'>
                 <div className='child-part'>
                     <img src={Pic3} alt="" />
                     <div className='child-name'>
@@ -33,11 +33,11 @@ function Headers() {
                     <img className="d-block mx-auto mb-4" src={Iconroom} alt="" width="72" height="57" />
                     <h1 className="display-5 fw-bold">Catalog</h1>
                     <div className="col-lg-10 mx-auto">
-                        <p className="lead mb-2">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        <p className="fs-6 mb-2 p-2">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                     </div>
 
                 </div>
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={Pic2} className="d-block w-100" alt="..." />

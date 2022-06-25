@@ -8,7 +8,7 @@
 .containers {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding:60px 10px;
+  padding:60px 0px;
   background-image: linear-gradient(
     to left,
     rgba(255, 255, 255, 0.5),
@@ -19,15 +19,14 @@
   /* border: 1px solid saddlebrown; */
   height: auto;
   position: relative;
-  padding: 10px;
+  padding: 0px;
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 20px 5px rgba(109, 109, 109, 0.4);
-
-  margin: 10px;
+ 
 }
 
 .child-part {
-  /* border: 1px solid rgb(61, 61, 61); */
+ 
   position: relative;
   width: 100%;
   height: auto;
@@ -42,7 +41,7 @@
   left: 0;
   transform: translate(0, -80%);
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px 20px;
   background-image: linear-gradient(
     to left,
     rgba(255, 255, 255, 0),
@@ -55,7 +54,8 @@
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 20px;
+  
   cursor: pointer;
 }
 .child-content-1 span {
@@ -95,10 +95,10 @@
 .child-ct {
   color: rgb(56, 56, 56);
   cursor: pointer;
-  padding: 10px;
   height: auto;
   overflow: auto;
   text-align: justify;
+  padding: 20px;
 }
 .room-decrip{
   position: relative;
