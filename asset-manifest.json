@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.2e0e6ba3.css",
-    "main.js": "/cv/static/js/main.b7e26469.js",
+    "main.css": "/cv/static/css/main.97e73694.css",
+    "main.js": "/cv/static/js/main.a1225246.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
-    "static/media/supgr1.jpg": "/cv/static/media/supgr1.940610e122afead5ae47.jpg",
-    "static/media/supgr2.jpg": "/cv/static/media/supgr2.3a7abe46f65f14c38d30.jpg",
-    "static/media/Room1.jpg": "/cv/static/media/Room1.c9105f880b9db99fb9c6.jpg",
-    "static/media/pic1.jpg": "/cv/static/media/pic1.4651d66346533553729d.jpg",
-    "static/media/capacity.png": "/cv/static/media/capacity.c159c2dc9c1822ac0689.png",
-    "static/media/visibility.png": "/cv/static/media/visibility.6071239546cfff267813.png",
+    "static/media/Pic5.jpg": "/cv/static/media/Pic5.e96666df527fef542226.jpg",
+    "static/media/Pic2.jpg": "/cv/static/media/Pic2.1bbc64884d1b17735399.jpg",
+    "static/media/supbed5.jpg": "/cv/static/media/supbed5.a4ef143337332bb88901.jpg",
+    "static/media/Pic3.jpg": "/cv/static/media/Pic3.d8bd9947db3e0d00c4b4.jpg",
+    "static/media/supbed4.jpg": "/cv/static/media/supbed4.4ca6718b663e6b7a48d8.jpg",
+    "static/media/Pic4.jpg": "/cv/static/media/Pic4.71363b1cb7bd72b75796.jpg",
+    "static/media/supbed2.jpg": "/cv/static/media/supbed2.eafc8b3b999ebf9dc603.jpg",
+    "static/media/supbed3.jpg": "/cv/static/media/supbed3.7483ec76476bad2ec6d0.jpg",
+    "static/media/supbed1.jpg": "/cv/static/media/supbed1.0146ca3136b305034ed4.jpg",
+    "static/media/supbed6.jpg": "/cv/static/media/supbed6.c9d0be0facf3c5a0af62.jpg",
+    "static/media/capacity.png": "/cv/static/media/capacity.c37b78caa28e2336a9c4.png",
+    "static/media/visibility.png": "/cv/static/media/visibility.d52cc08f7f386c9613e5.png",
+    "static/media/area.png": "/cv/static/media/area.1b76530a62db41b69ccd.png",
     "static/media/iconroom.png": "/cv/static/media/iconroom.d99c1dd85935f4954126.png",
-    "static/media/area.png": "/cv/static/media/area.c78268eb424953dc6811.png",
-    "static/media/double-bed.png": "/cv/static/media/double-bed.ee56a00023301392c17f.png",
     "index.html": "/cv/index.html",
-    "main.2e0e6ba3.css.map": "/cv/static/css/main.2e0e6ba3.css.map",
-    "main.b7e26469.js.map": "/cv/static/js/main.b7e26469.js.map",
+    "main.97e73694.css.map": "/cv/static/css/main.97e73694.css.map",
+    "main.a1225246.js.map": "/cv/static/js/main.a1225246.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e0e6ba3.css",
-    "static/js/main.b7e26469.js"
+    "static/css/main.97e73694.css",
+    "static/js/main.a1225246.js"
   ]
 }
