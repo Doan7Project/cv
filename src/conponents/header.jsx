@@ -60,8 +60,6 @@ function Headers() {
                 </div>
             </div>
             {/* popup modal content introduct */}
-
-
         </div>
     );
 }
